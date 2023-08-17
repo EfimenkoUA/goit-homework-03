@@ -94,6 +94,10 @@ ol {
     letter-spacing: 0.02em
 }
 
+.menu-header__item a {
+    padding: 24px 0;
+}
+
 .menu-header__link:hover {
     color: #404bbf;
 }
@@ -300,6 +304,7 @@ text-align: center;
 .portfolio__item-wrapper {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio__item-title {
