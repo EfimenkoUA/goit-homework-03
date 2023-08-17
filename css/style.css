@@ -190,7 +190,7 @@ section {
 .tools__item {
     flex: 0 0 264px;
 }
-.tools__title {
+/*.tools__title {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -199,7 +199,7 @@ section {
     color: #2E2F42;
     text-align: center;
     visibility: hidden;
-}
+}*/
 .tools__item-title {
     font-size: 20px;
     font-weight: 500;
