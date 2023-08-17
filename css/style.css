@@ -297,8 +297,8 @@ text-align: center;
     flex-wrap: wrap;
 }
 
-.portfolio__item img{
-    width: calc((100% - 48px) / 3);
+.portfolio__item {
+    width: calc((100%-48px)/3);
 }
 
 .portfolio__item-wrapper {
