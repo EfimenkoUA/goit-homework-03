@@ -294,7 +294,6 @@ text-align: center;
     display: flex;
     row-gap: 48px;
     column-gap: 24px;
-    flex-wrap: wrap;
 }
 
 .portfolio__item {
