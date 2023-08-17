@@ -32,14 +32,20 @@ ol {
     padding-left: 0;
 }
 
-[class*="__container"]{
-	max-width: 1158px;
+.container {
+    max-width: 1158px;
 	margin:0px auto;
     padding: 0px 15px;
 }
 
+/*[class*="__container"]{
+	max-width: 1158px;
+	margin:0px auto;
+    padding: 0px 15px;
+}*/
+
 /*===================== Header ===================*/
-header {
+.header {
     border-bottom:1px solid var #E7E9FC;
     background-color: #fff;
     padding: 25px;
@@ -50,7 +56,11 @@ header {
 .header__menu {
     display: flex;
     flex-grow: 1;
-    gap: 76px;
+    align-items: center;
+}
+.header__logo {
+    
+    margin-right: 76px;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -123,6 +133,7 @@ section {
     background-color: #2e2f42;
     text-align: center;
     color: #ffffff;
+    padding: 188px 0;
 }
 .solutions__title {
     font-size: 56px;
